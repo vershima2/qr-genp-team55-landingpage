@@ -1,0 +1,328 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+    width: 0%;
+} */
+body{
+    height: 7365px;
+    width: 1440px;
+    left: 11769px;
+    top: 655px;
+    border-radius: 0px;
+}
+.header{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    padding: 40px 100px 0px;
+    gap: 20px;
+    
+    position: absolute;
+    width: 1440px;
+    height: 104px;
+    left: 0px;
+    top: 7px;
+
+    
+}
+.qrcode1{
+    width: 140px;
+    height: 30px;
+    
+    background: url(qrcode);
+    
+        /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.signup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 8px;
+    gap: 90px;
+    /* position: absolute; */
+    width: 160px;
+    height: 52px;
+    left: 90px;
+    top: 6px;
+    
+        /* Primary/1/main */
+    
+    background: #4B296B;
+    border-radius: 8px;
+}
+.top{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    padding: 0px 110px 0px 0px;
+    gap: 40px;
+    
+    width: 928px;
+    height: 64px;
+    
+    
+        /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
+.undraw{
+    position: absolute;
+    width: 543px;
+    height: 440px;
+    left: 767px;
+    top: 252px;
+}
+.business{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 12px;
+    
+        position: absolute;
+        width: 522px;
+        height: 374px;
+        left: 100px;
+        top: 251px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 8px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 240px;
+    height: 52px;
+    left: 103px;
+    top: 640px;
+    
+        /* Primary/1/main */
+    
+    background: #4B296B;
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+        /* identical to box height, or 150% */
+    
+    letter-spacing: 0.005em;
+    
+        /* White */
+    
+    color: #FFFFFF;
+    
+    
+        /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0
+}
+h2{
+    width: 522px;
+        height: 272px;
+    
+        /* Heading Text 6 */
+    
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 68px;
+        line-height: 88px;
+        /* or 129% */
+    
+        letter-spacing: 0.01em;
+    
+        /* Neutrals/9 */
+    
+        color: #070508;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.hi{
+    width: 517px;
+        height: 90px;
+    
+        /* large body text */
+    
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+    
+        letter-spacing: 0.005em;
+    
+        /* Neutrals/1 */
+    
+        color: #0D0A0F;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+.undraw1{
+    width: 580px;
+        height: 468px;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+.how{
+    /* Frame 101 */
+    
+    
+        /* Auto layout */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 140px;
+        gap: 64px;
+    
+        position: absolute;
+        width: 1440px;
+        height: 732px;
+        left: 0px;
+        top: 832px;
+    
+        /* Primary/2 */
+    
+        background: #DBD4E1;
+}
+.choose{
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 76px;
+    
+        width: 1160px;
+        height: 467px;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+.choose1{
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+    
+        width: 504px;
+        height: 134px;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+h3.ch{
+    width: 389px;
+        height: 24px;
+    
+        /* Caption text medium This is the smallest size of text needed in this website and i hope thats ohkay by all of you bold */
+    
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 24px;
+        /* identical to box height, or 86% */
+    
+        letter-spacing: 0.005em;
+    
+        /* Primary/1/main */
+    
+        color: #4B296B;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.fill{
+    box-sizing: border-box;
+    
+        /* Auto layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 80px;
+    
+        position: absolute;
+        width: 1140px;
+        height: 520px;
+        left: 150px;
+        top: 1664px;
+    
+        /* Primary/1/main */
+    
+        border-bottom: 1px solid #4B296B;
+}
+.undraw3{
+    width: 520px;
+    height: 518px;
+    
+    
+        /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/* .fill1{
+display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    width: 540px;
+    height: 134px;
+
+
+    /* Inside auto layout */
+/* 
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+} */ 
